@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-secret",
+  "version": "0.1.0",
+  "description": "Node-RED node for injecting secrets into flows while preventing export of those secrets",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shanemadden/node-red-contrib-secret.git#master"
+  },
+  "bugs": {
+    "url": "https://github.com/shanemadden/node-red-contrib-secret/issues"
+  },
+  "dependencies": {},
+  "author": "Shane Madden <shanemadden@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "secret",
+    "password",
+    "key",
+    "api-key",
+  ],
+  "node-red": {
+    "nodes": {
+      "secret": "secret.js"
+    }
+  }
+}
