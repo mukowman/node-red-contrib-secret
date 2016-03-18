@@ -17,7 +17,7 @@
     "secret",
     "password",
     "key",
-    "api-key",
+    "api-key"
   ],
   "node-red": {
     "nodes": {
